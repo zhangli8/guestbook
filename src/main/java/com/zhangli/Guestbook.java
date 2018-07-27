@@ -12,8 +12,10 @@ public class Guestbook {
   private java.sql.Timestamp date;
   private String content;
 
-  public Guestbook(long id, String name, String title, String subTitle, Timestamp date, String content) {
-    this.id = id;
+  public Guestbook() {
+  }
+
+  public Guestbook(String name, String title, String subTitle, Timestamp date, String content) {
     this.name = name;
     this.title = title;
     this.subTitle = subTitle;
